@@ -1,0 +1,17 @@
+html {
+	background: url("https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg");
+	background-size: contain;
+}
+
+img {
+	border-radius: 25px;
+}
+
+.box {
+  border-radius: 25px;
+  width: 75%;
+  margin: 50px auto 0 auto;
+  padding: 20px;
+}
+
+
