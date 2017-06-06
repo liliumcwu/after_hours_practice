@@ -27,7 +27,7 @@ function isCharacterAVowel(c) {
   var vowels = ['a','e','i','o','u'];
   if (vowels.indexOf(c) !== -1) {
     return true;
-  } 
+  }
   return false;
 }
 
@@ -71,7 +71,7 @@ var reverseString = function (str){
 
 // Question 6 alternative answer
 
-reverseString = function(){ 
+reverseString = function(){
   return this.split('').reverse().join('');
 };
 
@@ -100,7 +100,7 @@ function filterLongWords (arr,num) {
 
 
 // Bonus 1
-String.prototype.reverse = function(){ 
+String.prototype.reverse = function(){
   return this.split('').reverse().join('');
 };
 
