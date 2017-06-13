@@ -6,33 +6,33 @@ var randomName = function() {
        return name[index];
    }
 
-    var say = function(x) {
-      console.log('Say ' + x);
+    var say = function(saysomething) {
+      console.log(`Say ${saysomething()}`);
     }
-    var yell = function(x) {
-      console.log('Yell ' + x);
+    var yell = function(yellsomething) {
+      console.log('Yell', yellsomething());
     }
-    var eat = function(x) {
-      console.log('Eat ' + x);
+    var eat = function(eatsomething) {
+      console.log('Eat', eatsomething());
     }
 
-    var roll = function(x) {
-      console.log ('Roll ' + x);
+    var roll = function(rollsomething) {
+      console.log ('Roll', rollsomething());
     }
 
     function random_function(a, x, y, z, f) {     //the parameters can be anything, as long as they are used within the function
       //x,y,z,f parameters are FUNCTIONS, call these functions using a as parameter. LOOK AT EXAMPLE BELOW
       if (typeof x === 'function') {
-        x(a());
+        x(a);
       }
       if (typeof y === 'function') {
-        y(a());
+        y(a);
       }
       if (typeof z === 'function') {
-        z(a());
+        z(a);
       }
       if (typeof f === 'function') {
-        f(a());
+        f(a);
       }
     }
 
